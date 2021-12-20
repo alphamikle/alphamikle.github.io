@@ -21744,8 +21744,7 @@ ahA:function ahA(){},
 aOs(a){return new A.Q9(J.vM(t.j.a(J.aR(a,"data")),new A.ahB(),t.bm).fB(0))},
 Q9:function Q9(a){this.a=a},
 ahB:function ahB(){},
-aiS:function aiS(a){this.a=a
-this.b=null},
+aiS:function aiS(a){this.a=a},
 aiT:function aiT(){},
 mg:function mg(a,b,c,d,e,f,g){var _=this
 _.y=a
@@ -77301,8 +77300,8 @@ a4=A.azV(h,null,g,A.D(a5,a6),j,a,l,a3,a0,i,null,null,"cryptocurrency/listings/la
 a4.dy=a4.fx=a4.fr=null
 a5=k==null?null:k
 a4.sw4(0,a5==null?n.adv(i):a5)
-a5=p.b
-a5=a4.adB(a5==null?A.b(A.b(o.DJ$,"options").od$,"baseUrl"):a5)
+a5=A.b(o.DJ$,"options")
+a5=a4.adB(A.b(a5.od$,"baseUrl"))
 a6=t.PI
 if(A.aU(a6)!==B.kU)n=!(A.b(a5.f,"responseType")===B.hS||A.b(a5.f,"responseType")===B.hR)
 else n=!1
@@ -77564,9 +77563,7 @@ r.Pp$=new A.a05(A.a([],t.Hh))
 return r},
 $S:472}
 A.ar6.prototype={
-$0(){var s=new A.aiS(A.qD(t.kE))
-s.b="https://pro-api.coinmarketcap.com/v1/"
-return s},
+$0(){return new A.aiS(A.qD(t.kE))},
 $S:473}
 A.ar7.prototype={
 $0(){var s=t.z,r=t.N
