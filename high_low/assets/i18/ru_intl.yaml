@@ -1,0 +1,18 @@
+main:
+  loading: Загрузка...
+  search:
+    hint: Поиск
+    result:
+      zero: Мы ничего не нашли
+      one: Мы нашли ${howMany} элемент
+      two: Мы нашли ${howMany} элемента
+      other: Мы нашли ${howMany} элементов
+    secret: Похоже, ты нашел секрет! (42)
+  errors:
+    loadingError: Загрузка крипты не удалась
+  repeat: Перезагрузить
+
+common:
+  currency: '\$'
+  percent: '%'
+  appTitle: High Low
